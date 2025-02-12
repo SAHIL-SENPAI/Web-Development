@@ -1,0 +1,246 @@
+
+*{
+    margin:0px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.card{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.box{
+    display: inline-block;
+}
+.img{
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+}
+.restaurant_name{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.restaurant, .food ,.location{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rating{
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    border-radius: 10%;
+    padding: 5px;
+    position: absolute;
+    right: 5px;
+}
+
+.price , .distance{
+    position: absolute;
+    right: 5px;
+}
+
+.card{
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 10px gray;
+    
+}
+
+.location{
+    color: grey;
+}
+.food{
+    color: rgb(86, 84, 84);
+    font-weight: 500;
+}
+.distance{
+    color: black;
+}
+
+#mr , #star{
+    display: inline;
+}
+
+#star{
+    font-size:smaller;
+}
+
+.off{
+    background-color: rgba(0, 0,255, 0.6);
+    font-size: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 25px;
+    color: white;
+    font-weight: bolder;
+    padding: 3px;
+}
+
+.image{
+    position: relative;
+}
+
+.brand{
+    font-size: x-large;
+}
+.searching{
+    width: 400px;
+    height: 30px;
+    position: relative;
+    bottom: 8px;
+    border-radius: 3px;
+    margin-left: 30px;
+    font-size: 17px;
+    border-color:rgb(179, 175, 175);
+    border: 1px;
+    box-shadow: 0px 0px 5px grey;
+}
+
+.first {
+   margin: 0px 0px 15px 150px;
+
+}
+
+.dining{
+    margin-left: 150px;
+}
+
+.log{
+    margin-left: 150px;
+    margin-right: 50px;
+}
+button{
+    padding: 8px;
+    position: relative;
+    bottom: 9px;
+    font-weight: bold;
+    background-color: white;
+    color: rgb(114, 110, 110);
+    border: none;
+    font-size: large;
+}
+
+button:hover{
+    color: black;
+}
+
+.head{
+   
+    background-color: white;
+}
+
+.img3{
+    height: 35px;
+    width: 35px;
+    position: relative;
+    left: 12px;
+    top: 12px;
+}
+.size{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 50%;
+}
+.dining , .delivery {
+    margin-right: 40px;
+}
+.dining , .delivery , .nightlife{
+    margin-top: 5px;
+}
+
+.dine{
+    font-size: larger;
+    font-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    color: rgb(128, 125, 125);
+    
+}
+.nightlife:hover,.delivery:hover,.dining:hover{
+    cursor: pointer;
+}
+
+.second{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    height:75px ;
+ 
+}
+
+.third{
+    height: 400px;
+    background-color: grey;
+}
+
+
+
+
+
+/* footer */
+
+footer{
+    background-color: rgb(32, 30, 30);
+    height: 300px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot{
+    max-width: 80%;
+    width: 80%;
+    height: inherit;  
+    position: relative;
+}
+
+.bot{
+    display: flex;
+    height:250px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.heed{
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-top: 20px;
+
+}
+
+.about > h3, .learn > h3 , .contact > h3{
+    color: white;
+    margin-top: 20px;
+    font-size: small;
+}
+
+.bot p{
+    color: gray;
+    font-size: smaller;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.boxxx{
+    margin-left: 150px;
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+

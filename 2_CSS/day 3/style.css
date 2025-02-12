@@ -1,0 +1,49 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#start{
+    background-color: rgb(48, 200, 43);
+}
+
+h1{
+        font-weight: bold; /* Makes the font bold */
+        color: white;
+}
+
+article#start > p{
+    color: yellow;
+}
+
+#css-side{
+    background-color: white;
+}
+
+#JavaScript-side{
+    background-color: white;
+}
+
+#tab{
+    width: 100vw;
+}
+
+thead{
+    background-color: blue;
+    color: white;
+    text-align: left;
+}
+
+#Responsive-side{
+    background-color: white;
+}
+
+#end{
+    background-color: grey;
+    color: black;
+}
+
+footer > p {
+    font-weight: 900;
+}
