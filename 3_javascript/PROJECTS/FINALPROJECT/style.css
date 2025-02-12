@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+body{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgb(195, 197, 199); */
+}
+
+nav{
+    height: 60px;
+    background-color: rgb(40, 38, 38);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+nav button{
+    padding: 8px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(9, 163, 9);
+    font-size: 1.1rem;
+    border-radius: 2px;
+    margin-left: 10px;
+    transition: all 0.1s ease-in;
+}
+
+nav button:hover{
+    background-color: rgb(134, 159, 134);
+}
+
+nav button:active{
+    background-color: rgb(8, 83, 8);
+    transition: all 50ms ease-in;
+}
+
+
+
+.card{
+    margin-left: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    /* background-color: white; */
+    transition: all 0.1s ease-in;
+}
+.card:hover{
+    transform: scale(1.04);
+    z-index: 999;
+}
+#root{
+    display: flex;
+    width: 80vw; 
+    flex-wrap: wrap; 
+}
+
+.img{
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.image{
+    position: relative;
+}
+
+.restaurant_name{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.restaurant, .food ,.location{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.rating{
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    border-radius: 10%;
+    padding: 5px;
+    position: absolute;
+    right: 5px;
+}
+
+.price , .distance{
+    position: absolute;
+    right: 5px;
+}
+
+.card{
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 10px gray;
+    
+}
+
+.location{
+    color: grey;
+}
+.food{
+    color: rgb(86, 84, 84);
+    font-weight: 500;
+}
+.distance{
+    color: black;
+}
+
+#mr , #star{
+    display:inline;
+}
+
+#star{
+    font-size:smaller;
+}
+
+.off{
+    background-color: rgba(0, 0,255, 0.6);
+    font-size: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 25px;
+    color: white;
+    font-weight: bolder;
+    padding: 3px;
+}
+
+.brand{
+    font-size: x-large;
+}
+.restaurant, .food ,.location{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#popup {
+    position: fixed; /* Fixed position relative to the viewport */
+    top: 50%; /* Position from the top (50% of the viewport height) */
+    left: 50%; /* Position from the left (50% of the viewport width) */
+    transform: translate(-50%, -50%); /* Offset by 50% of its own width and height to center it */
+    background-color: white; /* Background color */
+    padding: 20px; /* Padding inside the popup */
+    border-radius: 8px; /* Rounded corners (optional) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    z-index: 1000; /* Make sure it appears on top of other content */
+    flex-direction: column;
+    gap: 5px;
+    font-size: 1.2rem;
+    display: flex;
+    min-width: 280px
+}
+
+.hidden{
+    display: none !important;
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+
+    
+
+}
+#applyfilter{
+    flex-grow: 1;
+    padding: 5px;
+    background-color: #008000;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+}
+#closefilter{
+    flex-grow: 1;
+    padding: 5px;
+    background-color: #Cc0202;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+}
+
+
+#overlay {
+    position: fixed; /* Fixed to the viewport */
+    top: 0;
+    left: 0;
+    width: 100vw; /* Full screen width */
+    height: 100vh; /* Full screen height */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent dark background */
+    backdrop-filter: blur(5px); /* Blurring effect */
+    z-index: 999; /* Just below the popup */
+    display: none; /* Hidden by default, shown when the popup is active */
+  }
+

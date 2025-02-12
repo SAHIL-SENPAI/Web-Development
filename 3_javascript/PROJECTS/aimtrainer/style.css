@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+body{
+    color:white;
+    background-color: #232425;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.position{
+    display: flex;
+    gap:20px;
+}
+.bubbles{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    background-color: #3aafa9;
+}

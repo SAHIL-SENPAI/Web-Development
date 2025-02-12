@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+
+    <form action="">
+    <fieldset>
+        <legend>User info</legend>
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="username" required>
+        <br><br>
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="usermail">
+        <br>
+        <br>
+        <label for="number">Phone:</label>
+        <input type="tel" id="number" name="usernumber">
+        <br><br>
+        <label for="pass">Password</label>
+        <input type="password" id="pass" name="userpassword">
+
+
+    </fieldset>
+    <fieldset>
+        <legend>User other info</legend>
+        <label for="">Gender:</label>
+        <input type="radio" name="gender" id="Male" value="Male">
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" id="female" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="Other" value="Other">
+        <label for="Other">Other:</label>
+        <br><br>
+        <label for="dob">DOB</label>
+        <input type="date" id="dob" name="userdateofbirth" min="2001-01-01" max="2005-01-01">
+        <br><br>
+        <label for="school">School Name:</label>
+        <input type="text" id="school" name="schoolname">
+        <br>
+        <br>
+        <label for="board">Board:</label>
+        <select name="board" id="board">
+            <option value="" disabled selected>Select your Board</option>
+            <option value="CBSE">CBSE</option>
+            <option value="ICSE">ICSE</option>
+            <option value="IGU">IGU</option>
+            <option value="OTHER">OTHER</option>
+        </select>
+        <br>
+        <br>
+        <label for="passingyear">Year of Passing:</label>
+        <input type="number" id="passingyear" name="passingyear" min="2023" max="2026">
+        <br><br>
+        <label for="center">Exam Center:</label>
+        <select name="exam center" id="center">
+            <option value="" disabled selected>Select Exam Center</option>
+            <option value="delhi">delhi</option>
+            <option value="haryana">haryana</option>
+            <option value="up">up</option>
+            <option value="mumbai">mumbai</option>
+            
+        </select>
+
+    </fieldset>
+    <br>
+    <button>Register</button>
+</form>
+    
+</body>
+</html>
+
