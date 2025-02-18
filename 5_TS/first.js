@@ -16,3 +16,6 @@ console.log(a, " ", b);
 // why not latest version why 2016 , because it was a major update and many codebases now are 2016 verion and its
 // very hectic to migrate the code(change from one version to another we cant just do it using ai we have to use manpower to rereade the code and convert to latest version)
 // thats why 2016 version is the best aproach now.
+// if you want changes to be at same time.
+// tsc --watch 
+// ctrl + c to exit watch mode
