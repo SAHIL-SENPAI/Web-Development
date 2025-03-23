@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+#root{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.buttons{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    font-size: 1.1rem;
+}
+.buttons button{
+    padding: 5px;
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+#container{
+    background-color: rgb(67, 63, 63);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+

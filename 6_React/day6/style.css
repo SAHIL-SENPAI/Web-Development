@@ -1,0 +1,15 @@
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    padding: 20px;
+}
+
+.buttons button{
+    padding:5px;
+    margin-left: 4px;
+}

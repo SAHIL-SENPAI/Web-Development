@@ -1,0 +1,26 @@
+#heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    background-color: rgb(172, 172, 172);
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(129, 22, 129);
+    color: white;
+    font-size: larger;
+}
+
+.card > a{
+    color: white;
+}
